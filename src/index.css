@@ -1,0 +1,39 @@
+:root{
+  --div-background-color: red;
+  --text-color: white;
+  --div-padding: 10px;
+  --div-margin: 10px;
+
+}
+
+
+
+
+header{
+  background-color: black;
+}
+a{
+  color: white;
+}
+
+body{
+  margin: 0px 0px 0px 0px;
+}
+
+#normal{
+
+}
+
+#normal {
+  border: 3px solid red;
+  margin-bottom: 20px;
+}
+#shadow-root {
+  border: 3px solid purple;
+}
+button {
+  color: white;
+  background-color: red;
+}
+
+
