@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Lit</title>
+    <link rel="stylesheet" href="src\index.css">
+    <script type="module" src="src\customCSS.js"></script>
+    <script type="module" src="src\slots.js" ></script>
+    <script type="module" src="src\difference.js"></script>
+    <script type="module" src="src\shadowDOM.js"></script>
+  </head>
+<header>
+  <nav id="main-nav" class="sidebar">
+    <a href="/" onclick="route()">Home</a>
+    <a href="/slot" onclick="route()">Slot</a>
+    <a href="/css" onclick="route()">CSS</a>
+    <a href="/difference" onclick="route()">Difference</a>
+    <a href="/shadow" onclick="route()">Shadow</a>
+</nav>
+</header>
+  <body>
+    <div id="root">
+      
+      <div id="main-page"></div>
+    </div>
+   
+    <script src="src\router.js"></script>
+  </body>
+</html>
